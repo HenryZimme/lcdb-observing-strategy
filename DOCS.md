@@ -147,9 +147,11 @@ Tracks the Lomb-Scargle estimate night-by-night and derives a stopping rule.
 - `abs_error`: |estimated - true|
 - `delta_p`: |estimated_period(night N) - estimated_period(night N-1)|
 
-**`find_stability_threshold(conv_df, target_accuracy=0.95)`** scans delta-P thresholds from large to small. The "optimal threshold" is the largest value at which ≥95% of converged estimates have `abs_error < 0.1h`. This gives the operational rule:
+**`find_stability_threshold(conv_df, target_accuracy=0.80)`** scans delta-P thresholds from large to small. The "optimal threshold" is the largest value at which ≥80% of converged estimates have `abs_error < 0.05h`. This gives the operational rule:
 
 > *Stop extending the campaign when the night-to-night change in best-fit period drops below X hours.*
+>
+> **Note:** I used an 80% threshold, because ~ 20% of the sample had significant aliasing. As seen earlier, aliasing can be mitigated by running a RMS fit on asteroids with multiple high power LS peaks. 
 
 In practice this should be combined with a visual inspection of the phased lightcurve.
 
