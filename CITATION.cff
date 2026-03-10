@@ -7,7 +7,7 @@ title: "LCDB Observing Strategy: Cindygraber (MPC 7605) Rotational Period Determ
 version: 1.0.0
 date-released: 2026-03
 license: MIT
-repository-code: https://github.com/YOUR_HANDLE/lcdb-observing-strategy
+repository-code: https://github.com/henryzimme/lcdb-observing-strategy
 doi: 10.5281/zenodo.XXXXXXX
 keywords:
   - asteroid
