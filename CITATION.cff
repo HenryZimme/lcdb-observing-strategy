@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Zimmerman
+    given-names: Henry
+title: "LCDB Observing Strategy: Cindygraber (MPC 7605) Rotational Period Determination"
+version: 1.0.0
+date-released: 2026-03
+license: MIT
+repository-code: https://github.com/YOUR_HANDLE/lcdb-observing-strategy
+doi: 10.5281/zenodo.XXXXXXX
+keywords:
+  - asteroid
+  - photometry
+  - rotation period
+  - observing strategy
+  - lightcurve
+  - lomb-scargle
