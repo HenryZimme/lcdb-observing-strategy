@@ -95,9 +95,9 @@ Download it from: https://minplanobs.org/mpinfo/php/lcdb.php
 
 ## Citation
 
-If you use this code, please cite:
+> Zimmerman, H. (2026). *LCDB Observing Strategy: Cindygraber (MPC 7605) Rotational Period Determination* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 
-> Zimmerman, H. (2026). *LCDB Observing Strategy: Cindygraber (MPC 7605) Rotational Period Determination.* Phillips Academy Observatory / PHY530.
+ASCL record: https://ascl.net/XXXX.XXX (pending)
 
 LCDB data:
 > Warner, B.D., Harris, A.W., & Pravec, P. (2009). The Asteroid Lightcurve Database. *Icarus*, 202(1), 134–146.
